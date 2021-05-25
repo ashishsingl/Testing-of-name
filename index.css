@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.car-img {
+  opacity: 0.5;
+  height: 75vh;
+}
+
+.overlay::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 75vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.carousel-item {
+  height: 75vh !important;
+}
